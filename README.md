@@ -1,16 +1,57 @@
-# my_app
+🛒 Flutter FakeStore CRUD App
 
-A new Flutter project.
+A simple Flutter app that demonstrates CRUD operations with products using FakeStore API
+.
+The app allows you to:
 
-## Getting Started
+✅ View products in a grid
 
-This project is a starting point for a Flutter application.
+✅ Add a new product
 
-A few resources to get you started if this is your first Flutter project:
+✅ Update an existing product
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+✅ Fetch categories dynamically and select from a dropdown
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+✅ Loading indicators while performing network calls
+
+Built with:
+
+Flutter
+
+Dio
+ (for API requests)
+
+modal_progress_hud_nsn
+ (loading overlay)
+
+font_awesome_flutter
+ (icons)
+
+
+🚀 Features
+
+Home Page
+
+Fetches all products from API
+
+Displays products in a responsive grid
+
+Floating action button ➕ to add a new product
+
+Tap a product to update its details
+
+Add Product Page
+
+Form with fields: title, price, description, image, category
+
+Dropdown to select category (fetched from API)
+
+Submits new product via POST request
+
+Update Product Page
+
+Loads product details
+
+Lets you update title, description, price, image
+
+PUT request to update product
